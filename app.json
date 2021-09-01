@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/QueenArzoo/VCPlayBot",
+  "repository": "https://github.com/KingNoobX/VCPlayBot",
   "stack": "container",
   "buildpacks": [
    {
@@ -25,7 +25,7 @@
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "SUPPORT_GROUP": {
@@ -45,7 +45,7 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": "HDXRDI-GHZLYY-QNGCVT-ZGPFLQ-ARQ"
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
@@ -55,7 +55,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "LaylaList"
+      "value": "BOT_LAB_Ch"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
